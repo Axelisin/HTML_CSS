@@ -1,0 +1,28 @@
+p {
+    background: red;
+    width: 300px;
+    height: 100px;
+
+    border: 2px dashed blue;
+
+    margin: 50px;
+    padding: 10px;
+}
+
+span {
+    background: orange;
+    width: 100px;
+
+    border: 2px dashed blue;
+}
+
+div {
+    display: inline-block;
+    background: greenyellow;
+    width: 200px;
+
+    border: 2px dashed blue;
+
+    margin: 20px;
+    padding: 10px;
+}
