@@ -1,0 +1,26 @@
+.margin, .border, .padding{
+    border: 2px dashed blue;
+    margin: 5px 5px 5px 10px;
+    padding: 0px 20px 20px 20px;
+}
+
+.margin {
+    background: rgb(246, 113, 113);
+    width: 500px;
+    margin: auto;
+}
+
+.border {
+    background: rgb(133, 237, 133);
+}
+
+.padding {
+    background: rgb(77, 156, 230);
+}
+
+.content {
+    background: rgb(195, 202, 12);
+    text-align: center;
+    line-height: 30px;
+    height: 30px;
+}
