@@ -12,7 +12,9 @@
     gap: 30px;
     max-width: 900px;
     /* margin: auto; */
-    flex-grow: 1;
+    /* flex-grow: 1; */
+    /* width: 100%; */
+    flex-basis: 100%;
 }
 
 .header .logo {
