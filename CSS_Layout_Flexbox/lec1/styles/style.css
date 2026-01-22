@@ -1,0 +1,27 @@
+.header {
+    padding: 10px;
+    background-color: bisque;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    max-width: 900px;
+    /* margin: auto; */
+    flex-grow: 1;
+}
+
+.header .logo {
+    width: 50px;
+    flex-shrink: 0;
+}
+
+.header .navigation {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+}
