@@ -78,3 +78,33 @@ ul {
 .btnGroup .save {
     margin-left: auto;
 }
+
+.imgGrid {
+    max-width: 1500px;
+    margin: 30px auto;
+    background-color: lightgrey;
+
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+.imgGrid .image {
+    width: calc((100% - 12px - 12px) / 3);
+    /* flex: 1 1 10%; */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
