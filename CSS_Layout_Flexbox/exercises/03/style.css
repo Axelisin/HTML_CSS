@@ -1,0 +1,59 @@
+main {
+    border: 1px solid lightgray;
+    display: flex;
+    padding: 3px;
+}
+
+.left {
+    border: 1px solid lightgray;
+    width: 80%;
+}
+
+.right {
+    border: 1px solid lightgray;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 1px;
+}
+
+.workdays {
+    display: flex;
+    border: 1px solid lightgray;
+}
+.workdays article {
+    border: 1px solid lightgray;
+    padding: 40px;
+    margin: 0;
+    width: 25%;
+}
+
+.weekend {
+    display: flex;
+    border: 1px solid lightgray;
+}
+
+.weekend article {
+    border: 1px solid lightgray;
+    padding: 40px;
+    margin: 0;
+    width: 50%;
+}
+
+.big-ctr {
+    display: block;
+    border: 1px solid lightgray;
+    padding: 40px;
+    margin: 1px;
+}
+
+.right section:first-of-type {
+    border: 1px solid lightgray;
+    height: 50%;
+    padding: 40px;
+}
+.right section:last-of-type {
+    border: 1px solid lightgray;
+    height: 50%;
+    padding: 40px;
+}
