@@ -1,0 +1,30 @@
+a{
+    text-decoration: none;
+    color: orange;
+}
+li{
+    list-style-type: none;
+    margin: 5px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    padding: 5px 10px;
+    background-color: white;
+    text-align: center;
+}
+
+li:hover {
+    background-color: aquamarine;
+}
+ul {
+    padding-left: 0;
+    display: flex;
+    gap: 5px;
+    border-radius: 5px;
+    background-color: lightgray;
+    box-shadow: 0px 0px 8px 8px rgb(177, 176, 176);
+
+}
+nav {
+    background-color: lightgray;
+    padding: 10px;
+}
