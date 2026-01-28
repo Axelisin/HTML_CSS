@@ -1,0 +1,56 @@
+.prod-ctr > div {
+    padding: 20px;
+}
+.prod-ctr {
+    display: flex;
+
+}
+.product {
+    width: 70%;
+    margin: 20px auto;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px 5px lightgray;
+}
+.heading {
+    font-weight: bold;
+    font-size: 1.5em;
+}
+.text-ctr {
+    width: 75%;
+}
+.img-ctr {
+    width: 25%;
+}
+body {
+    background-color: rgb(236, 232, 232);
+}
+
+img {
+    width: 100%;
+    border-radius: 5px;
+}
+button {
+    padding: 5px 10px;
+    margin-top: 20px;
+    margin-right: 10px;
+    border: none;
+    background-color: rgb(231, 227, 227);
+    border-radius: 5px;
+}
+.chat {
+    background-color: blueviolet;
+    color: white;
+}
+.lower-txt, .upper-txt {
+    color: rgb(100, 98, 98);
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+}
+.heading {
+    font-family: "Fjalla One", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+}
