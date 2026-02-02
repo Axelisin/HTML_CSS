@@ -1,0 +1,48 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: rgb(227, 223, 223);
+    font-size: 14px/1.5 Lato, sans-serif;
+    padding: 4em 2em;
+}
+
+.site {
+    max-width: 1200;
+    background-color: white;
+    padding: 2em;
+    border-radius: 5px;
+    box-shadow: 0 0 1em 0 rgb(0,0,0,0.2);
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+}
+
+.site > *{
+    border: 1px solid #aaa;
+    border-radius: 5px;
+    padding: 2em;
+    flex: 1 1 auto;
+}
+
+.site-header, .site-footer {
+    flex: 1 1 100%;
+}
+
+.site main {
+    flex-grow: 7;
+}
+.site aside {
+    flex-grow: 3;
+}
+
+
+@media screen and (max-width: 1200px) {
+    .site {
+        flex-direction: column;
+    } 
+}
+
+
