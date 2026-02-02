@@ -1,0 +1,54 @@
+.banner {
+    background-color: rgb(172, 111, 229);
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.main-nav ul {
+    display: flex;  
+    padding-left: 0; 
+    justify-content: space-around;
+}
+
+li {
+    list-style-type: none;
+    border: 1px solid green;
+    padding: 8px 12px;
+    border-radius: 5px;
+}
+li:hover {
+    background-color: aquamarine;
+}
+a {
+    text-decoration: none;
+}
+h2 {
+    text-align: center;
+}
+.items-ctr {
+    display: flex;
+    justify-content: space-around;
+    padding: 1.5em;
+}
+
+.item {
+    border: 1px solid red;
+    padding: 1em 1.2em;
+    width: 20%;
+}
+img {
+   width: 100%; 
+}
+
+button {
+    background-color: rgb(132, 206, 22);
+}
+
+@media screen and (max-width: 600px) {
+    main {
+        background-color: red;
+    }
+}
