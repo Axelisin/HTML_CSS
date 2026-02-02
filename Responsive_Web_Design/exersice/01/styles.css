@@ -39,6 +39,7 @@ body {
 }
 
 
+
 @media screen and (max-width: 1200px) {
     .site {
         flex-direction: column;
