@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    font: 12px/1.5 "Lato", sans-serif;
+}
+
+@media (min-width: 400px) {
+    html {
+        font-size: 14px;
+    }
+}
+
+@media (min-width: 600px) {
+    html {
+        font-size: 14px;
+    }
+}
+
+@media (min-width: 800px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+@media (min-width: 1200px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+body {
+    background-color: #eee;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 4em;
+}
+
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+main {
+    max-width: 1200px;
+}
+
+article {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 2em;
+    border-radius: 0.3em;
+    box-shadow: 0 0 1em 0 rgb(0,0,0,0.2);
+    gap: 1em;
+}
+
+@media (min-width: 800px) {
+    article {
+        flex-direction: row;
+    }
+}
+
+article .media {
+    flex: 0 0 10em;
+    order: -1;
+    overflow: hidden;
+    position: relative;
+    border-radius: 0.3em;
+}
+
+@media (min-width: 800px) {
+    article .media {
+        flex: 0 0 30%;
+        order: 1;
+    }
+}
+
+/* @media (min-width: 600px) {
+    article .media {
+        flex: 0 0 30%;
+    }
+} */
+
+article header {
+    padding-bottom: 0.5em;
+}
+
+article hgroup h1, article hgroup h2 {
+    line-height: 1;
+}
+
+article hgroup h1 {
+    font-size: 2.5em;
+    font-weight: normal;
+    margin: 0.3em 0;
+    opacity: 0.8;
+}
+
+article hgroup h2 {
+    opacity: 0.5;
+}
+
+article p {
+    opacity: 0.6;
+    padding-bottom: 1em;
+}
+
+.button {
+    display: inline-block;
+    color: #fff;
+    background-color: rgb(68, 0, 68);
+    text-decoration: none;
+    padding: 0.5em 1.2em;
+    border-radius: 5px;
+}
+
+.secondary {
+    margin-left: 1em;
+    background-color: #eee;
+    color: #666;
+}
+
+.media {
+    border: 1px solid #ccc;
+    background-color: #eee;
+}
