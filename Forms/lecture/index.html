@@ -1,12 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./style.css">
 </head>
+
 <body>
+    <form action="" method="">
+        <input type="text" placeholder="Enter your name">
+        <input type="password" placeholder="Enter your password">
+        <input type="email" placeholder="Enter your e-mail">
+
+        <label for="brightness">Brightness</label>
+        <input type="range" id="brightness" name="brightness" min="0" max="100" step="1" value="50">
+
+        <label for="birthdate">Birthday</label>
+        <input type="date" id="birthdate" min="2023-01-01" name="birthday">
+
+        <input type="file">
     
+        <span>Choose SEX</span>
+        <div>
+            <input id="male" type="radio" name="genderpick">
+            <label for="male">Male</label>
+
+            <input id="female" type="radio" name="genderpick">
+            <label for="female">Female</label>
+
+            <input id="kid" type="radio" name="genderpick">
+            <label for="kid">Kid</label>
+        </div>
+        
+        <span>Choose an EXTRA</span>
+        <div class="extra">
+            <input id="drink" type="checkbox"> 
+            <label for="drink">Pick a drink</label>
+
+            <input id="souse" type="checkbox">
+            <label for="souse">Pick a souse</label>
+
+            <input id="desert" type="checkbox">
+            <label for="desert">Pick a desert</label>
+        </div>
+
+        <!-- <script>
+            const today = new Date().toISOString().split('T')[0];
+            document.getElementById('birthdate').max = today;
+        </script> -->
+
+        <button type="submit">Submit</button>
+    </form>
 </body>
+
 </html>

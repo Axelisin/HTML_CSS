@@ -1,0 +1,36 @@
+form {
+    display: flex;
+    flex-direction: column;
+    width: 12em;  
+}
+
+input {
+    margin-bottom: 0.5em;
+}
+
+input:focus {
+  outline: none;
+  border-color: #4f46e5;
+  box-shadow: 0 0 0 3px rgba(79, 70, 229, 0.2);
+}
+
+input::placeholder {
+  color: #999;
+  font-style: italic;
+}
+
+form button {
+    width: 100px;
+}
+
+span {
+    font-style: italic;
+    font-weight: bold;
+}
+
+.extra {
+    display: flex;
+    flex-wrap: nowrap;
+    width: 20rem;
+    justify-content: space-between;
+}
