@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>The Form Element</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <main class="container">
+        <h1>The Form Element</h1>
+
+        <p class="intro">
+            The form element represents a document section containing interactive controls for submitting information.
+        </p>
+
+        <section class="form-section">
+            <h2>Attribute - method="get" (default)</h2>
+            <p class="description">
+                Form data appended to the action URL with a ? separator.
+            </p>
+
+            <pre class="code-block">
+                <code>
+    &lt;form action="#" method="get"&gt;
+        &lt;input type="search"&gt;
+    &lt;/form&gt;
+                </code>
+            </pre>
+
+            <form action="#" method="get" class="example-form">
+                <label>
+                    Search
+                    <input type="search">
+                </label>
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+
+        <section class="form-section">
+            <h2>Attribute - method="post" (default)</h2>
+            <p class="description">
+                Form data sent as the request body.
+            </p>
+
+            <pre class="code-block">
+                <code>
+    &lt;form action="#" method="post"&gt;
+        &lt;input type="search"&gt;
+    &lt;/form&gt;
+                </code>
+            </pre>
+
+            <form action="#" method="post" class="example-form">
+                <label>
+                    Search
+                    <input type="search">
+                </label>
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </main>
+
+</body>
+
+</html>
